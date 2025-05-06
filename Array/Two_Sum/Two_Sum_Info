@@ -1,0 +1,34 @@
+Two Sum 
+Question:
+> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+> You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+> You can return the answer in any order.
+
+Solution:
+
+Here we are using something new like difference
+
+suppose if the target is 5 means 
+num = [1,3,4,6]
+target = 5
+
+num [1] = 1-5 = 4
+Here the difference contains the remaining values and the index of the orginal value(1)
+num [2] = 4-3 not equal to 0
+num [3] = 4-4 = 0 It updates the value and the index also
+difference = [4:01,0:03]
+
+this is about the checking the value is present already or not if not means we are storing the value and the index.
+
+Algorithm:
+
+> Initialize a dictionary.
+> create a for loop to switch the indexes.
+> caluclate the difference using the target and the actual value and store the index.
+> Using conditional stmts check whether the value is previously occured or not
+> if not means please update the difference and index of the actual values.
+> If present means return the current and the previous index.
+
+
