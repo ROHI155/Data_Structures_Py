@@ -1,0 +1,25 @@
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+ 
+
+Example 1:
+
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
+Example 2:
+
+Input: nums = [1,0,1,1,0,1]
+Output: 2
+
+Here we are using the two-pointer method
+
+Algorithm:
+> Start the program.
+> Initialize the value to the left pointer and output as 0.
+> Open the for loop and enumerate the list index in it.
+> check if n is equal to 0
+> If true, update the left pointer index.
+> Store the max consecutive count in the output.
+> Return the output at the end of the for loop.
+> End the program.
