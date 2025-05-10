@@ -18,3 +18,7 @@ Leetcode problems to solve in array.
 8. Move zeros
 9. Intersection of Two Arrays II
 10. Container With Most Water
+
+Concepts Involved:
+> Two Pointer
+> Dict Based Execution
