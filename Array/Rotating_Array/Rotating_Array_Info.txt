@@ -1,0 +1,49 @@
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 step to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+Example 2:
+
+Input: nums = [-1,-100,3,99], k = 2
+Output: [3,99,-1,-100]
+Explanation: 
+rotate 1 step to the right: [99,-1,-100,3]
+rotate 2 steps to the right: [3,99,-1,-100]
+ 
+Hint: Here we are using the slicing concept.
+
+Start the program.
+
+> The rotate method begins execution, taking a list nums and an integer k as inputs to rotate the list to the right by k positions in-place.
+
+	Normalize k using the modulo operation.
+	Assign k = k % len(nums) to ensure k is within the range of the list length.
+	If nums = [1, 2, 3, 4, 5, 6, 7] (length 7) and k = 3, then k = 3 % 7 = 3. This step ensures k is not larger than the list length, making the rotation efficient.
+
+> Reverse the entire list.
+
+	Use nums[:] = nums[::-1] to reverse the entire list in-place.
+	nums[:] refers to the entire list (from start to end), and nums[::-1] reverses the order of all elements by using a step of -1.
+	if nums = [1, 2, 3, 4, 5, 6, 7], after this step, nums = [7, 6, 5, 4, 3, 2, 1].
+
+> Reverse the first k elements of the list.
+
+	Use nums[:k] = nums[:k][::-1] to reverse the first k elements of the list.
+	Here, nums[:k] refers to the sublist from the start (index 0) to index k-1 (first k elements).
+	nums = [7, 6, 5, 4, 3, 2, 1] and k = 3, nums[:3] = [7, 6, 5]. Reversing this sublist gives [5, 6, 7], so nums = [5, 6, 7, 4, 3, 2, 1].
+
+> Reverse the remaining elements (from index k to the end).
+
+	Use nums[k:] = nums[k:][::-1] to reverse the elements from index k to the end of the list.
+	Here, nums[k:] refers to the sublist from index k to the end of the list.
+	nums = [5, 6, 7, 4, 3, 2, 1] and k = 3, nums[3:] = [4, 3, 2, 1]. Reversing this sublist gives [1, 2, 3, 4], so nums = [5, 6, 7, 1, 2, 3, 4].
+
+> Finish the operation, And return the nums.
