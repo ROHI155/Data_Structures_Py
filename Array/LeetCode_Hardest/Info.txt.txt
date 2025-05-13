@@ -1,0 +1,11 @@
+Hard Problems:
+1. First Missing Positive.
+2. Trapping Rain Water.
+3. Find the K-th Smallest Pair.
+4. Get the Maximum Score.
+5. Closest Subsequence Sum.
+6. Count Pairs of Nodes.
+7. Burst Ballons.
+8. Remove Boxes.
+9. Minimum Cost to merge stones.
+10. Maximum Score of a Good Sub Array.
