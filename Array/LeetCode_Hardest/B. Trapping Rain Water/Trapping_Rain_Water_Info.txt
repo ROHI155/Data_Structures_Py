@@ -33,6 +33,6 @@ Algorithm:
 > Else the l > r (or) l == r means execute the following,
 	Assign the max_r by picking and comparing the max_r and height[r] using the max function.
 	Then calculate the total by summing it to the difference of max_r and height[r].
-	Then decrement the value of right to 1.
+	Then decrement the value of right to 1, because the right pointer is starts from the last value so it needs to be decremented.
 > At the end of the loop, return the total.
 > End and submit the program.
