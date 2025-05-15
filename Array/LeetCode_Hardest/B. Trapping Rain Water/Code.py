@@ -17,5 +17,5 @@ class Solution:
             else : # Then l > r or l == r means executing the right side of the block.
                 max_r = max (height[r],max_r) # Picking and assigning max value by comparing the height [r] and max [r].
                 total += max_r - height[r] # then the total is summed with the difference of the max_r and height[r].
-                r -= 1 # Then assign the decrement to the right pointer because it is starting fromt the right most end.
+                r -= 1 # Then assign the decrement to the right pointer because it is starting from the right most end.
         return total  # Return the total value.
