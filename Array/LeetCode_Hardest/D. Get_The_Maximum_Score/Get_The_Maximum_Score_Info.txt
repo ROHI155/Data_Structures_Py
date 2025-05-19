@@ -1,0 +1,54 @@
+Get The Maximum Score.
+
+You are given two sorted arrays of distinct integers nums1 and nums2.
+
+A valid path is defined as follows:
+
+Choose array nums1 or nums2 to traverse (from index-0).
+Traverse the current array from left to right.
+If you are reading any value that is present in nums1 and nums2 you are allowed to change your path to the other array. (Only one repeated value is considered in the valid path).
+The score is defined as the sum of unique values in a valid path.
+
+Return the maximum score you can obtain of all possible valid paths. Since the answer may be too large, return it modulo 109 + 7.
+
+Please refer ref_1 for reference purposes
+
+Input: nums1 = [2,4,5,8,10], nums2 = [4,6,8,9]
+Output: 30
+Explanation: Valid paths:
+[2,4,5,8,10], [2,4,5,8,9], [2,4,6,8,9], [2,4,6,8,10],  (starting from nums1)
+[4,6,8,9], [4,5,8,10], [4,5,8,9], [4,6,8,10]    (starting from nums2)
+The maximum is obtained with the path in green [2,4,6,8,10].
+Example 2:
+
+Input: nums1 = [1,3,5,7,9], nums2 = [3,5,100]
+Output: 109
+Explanation: Maximum sum is obtained with the path [1,3,5,100].
+Example 3:
+
+Input: nums1 = [1,2,3,4,5], nums2 = [6,7,8,9,10]
+Output: 40
+Explanation: There are no common elements between nums1 and nums2.
+Maximum sum is obtained with the path [6,7,8,9,10].
+
+Hint: Use the two-pointer technique to solve this.
+
+> Start the program.
+> Initialize a and b as len(num1 and  num2).
+> Initialize the i,j,sum1,sum2, and res as 0.
+> Entering the while loop with the condition of i<a and j<b.
+> Checking the condition if nums1[i]<nums2[j].
+	If true, it means performing sum1 + nums[i] and incrementing i by 1.
+> Checking the condition if nums1[i]>nums2[j].
+	If true, it means to perform sum2 + nums[j] and increment j by 1.
+> else perform the res operation 
+	which is nums[i]+max(sum1,sum2).
+	Assign the sum1 and sum2 as 0
+	Increment i and j by 1.
+> Create a loop if only one array is given,
+	i<a means perform, sum1 + nums[i].
+> Create a loop if only one array is given,
+	j<b means perform, sum2 + nums[j].
+> At the end calculate the res operation nums[i] + max(sum1,sum2)/].
+> Return the res with the performing the ((10**9)+7).
+> End the program.
