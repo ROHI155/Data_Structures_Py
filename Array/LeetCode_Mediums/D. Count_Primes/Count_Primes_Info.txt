@@ -1,0 +1,32 @@
+Count Primes
+
+Given an integer n, return the number of prime numbers that are strictly less than n.
+ 
+
+Example 1:
+
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+Example 2:
+
+Input: n = 0
+Output: 0
+Example 3:
+
+Input: n = 1
+Output: 0
+
+hint: Use the True or False with the multiples of I and J.
+
+Algorithm:
+
+> Start the program.
+> Initially, assign the array of all elements as True.
+> Check if n equals 0 or 1 and return 0.
+> Then assign the array of 0 and 1 as False.
+> Create the for loop for 'i' with the range of starting from 2 to the square root of n.
+> Check if the arr[i] still has elements.
+> Enter the next for loop to mark the multiples of 'i' as False.
+	Note: At first, all the elements are marked as True.
+> Return the sum of the array.
