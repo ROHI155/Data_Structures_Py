@@ -20,6 +20,7 @@ Easy:
 9. Toeplitz Matrix.
 10. Flipping an Image.
 
+
 Medium:
 1. Product of Array Exceot Self.
 2. Rotate Array.
@@ -30,7 +31,17 @@ Medium:
 7. House Robber.
 8. Spiral Matrix.
 9. Game of Life.
-10 . Rotating the Box.
+10. Rotating the Box.
+11. Jump Game I & II.
+12. H-Index.
+13. Gas Station.
+14. Integer to Roman.
+15. Container With Most Water.
+16. Longest Substring Without Repeating Characters.
+17. Game of Life.
+18. Group Anagrams.
+19. Merge Intervals.
+20.Insert Interval.
 
 Hard:
 1. First Missing Positive.
