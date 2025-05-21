@@ -1,0 +1,36 @@
+Word Search
+
+Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+ 
+
+Example 1:
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+Output: true
+
+Example 2:
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
+Output: true
+
+Example 3:
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
+Output: false
+ 
+Hint: Use the Dfs and backtracking to solve this problem.
+
+Algorithm:
+
+> Start the program.
+> Then assign the values of row and col using the len(board).
+> Then assign the value of 'P' as len(words).
+> Open a function with the variables r,c, and pos.
+> Check if the pos is greater than or equal to P means then return True.
+> Check that the values of r and c are in range and the board value matches the current position of the word.
+	Then store the board value of [r][c] to the original and mark the visited current index as '#'.
+> If not found means using 'found' check in all the surrounding four directions in the rows and cols.
+> If the letter is not found means backtrack to the previous letter and then continue or return False.
+> Open r and c loops to iterate through all rows and cols.
+> Check if the r,c,0 means returns True and return False at the end 
+> End the program.
