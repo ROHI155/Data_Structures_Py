@@ -1,0 +1,41 @@
+Number of Islands
+
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+ 
+
+Example 1:
+
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+Example 2:
+
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+
+Hint: Use DFS to solve this problem.
+
+Algorithm:
+
+> Start the program.
+> Initialize the row and column with the length of the grid and grid[0].
+> Create and assign the nums_Islands as 0.
+> Create a function to mark the neighboring '1' as '0'.
+> Create a condition if the values in the range and the value of the grid are not equal to 'i' means just return as empty.
+> else, perform the conversion of '1' to '0' in all four directions.
+> Create the loop to iterate through each row and column as I and j.
+> Check the condition if the grid value is equal to '1', which means increment the nums_Islands by one.
+> At the end, return the nums_Islands.
+> End the program.
