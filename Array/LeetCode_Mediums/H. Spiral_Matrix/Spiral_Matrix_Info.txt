@@ -1,0 +1,28 @@
+Spiral Matrix
+
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+Example 1:
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+
+Example 2:
+Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+
+Note: Refer the ref_1 and ref_2 pictures for the reference purposes.
+
+Algorithm:
+
+> Start the program.
+> Create an empty list to store the values.
+> Initialize the top as 0 and the bottom as len of the matrix minus 1.
+> Initialize the left as 0 and then the right as len of a matrix of 0 minus 1.
+> Check whether the top is less than or equal to the bottom, and similarly for left and right.
+> Open loops to iterate through the left to right and append the values in the empty list after that, incrementing the top by 1.
+> Open loops to iterate through the top to bottom and append the values in the empty list after that, decrementing the right by 1.
+> Check if the top is less than the bottom and then, Open loops to iterate through the left to right and append the values in the empty list after that incrementing the top plus 1.
+> Check if the left is less than or equal to the right, Open loops to iterate through the bottom to top, and append the values in the empty list after that decrementing the left by 1.
+> Return the created list 'r'.
+
+ 
