@@ -1,14 +1,7 @@
-Array is a data structure 
+Famous Frequently asked Leetcode problems.
 
-> Generally array can store only a same or single data type.
-> Arraty is a static data type which is a fixed memory.
-> Arrays store values in contigous order.
-> Each memory has unique address.
-> Array Index values ranges from 0 to n.
+> Easy:
 
-Leetcode problems to solve in array.
-
-Easy:
 1. Two Sum.
 2. Remove Duplicates from Sorted Array.
 3. Max Consecutive Ones.
@@ -19,9 +12,20 @@ Easy:
 8. Rich Customer Wealth.
 9. Toeplitz Matrix.
 10. Flipping an Image.
+11. Remove Element.
+12. Majority Element.
+13. Roman to Integer.
+14. Valid Palindrome.
+15. Is Subsequence.
+16. Merge Two Sorted Lists.
+17. Ransom Note.
+18. Word Pattern.
+19. Happy Number.
+20. Linked List Cycle.
 
 
-Medium:
+> Medium:
+
 1. Product of Array Exceot Self.
 2. Rotate Array.
 3. 3Sum.
@@ -43,7 +47,8 @@ Medium:
 19. Merge Intervals.
 20.Insert Interval.
 
-Hard:
+> Hard:
+
 1. First Missing Positive.
 2. Trapping Rain Water.
 3. Find the K-th Smallest Pair.
@@ -59,4 +64,6 @@ Concepts Involved:
 > Two Pointer.
 > Dict Based Execution.
 > Dynamic Programing.
-> DFS
+> DFS.
+> Greedy.
+> Backtracking.
