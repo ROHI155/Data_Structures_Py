@@ -1,8 +1,8 @@
-## Data Structures Using Python
+# Data Structures Using Python
 
-# Solving Various choosen leetcode problems in python.
+## Solving Various choosen leetcode problems in python.
 
-# Famous Frequently asked Leetcode problems.
+### Famous Frequently asked Leetcode problems.
 
 > Easy:
 
