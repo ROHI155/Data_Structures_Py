@@ -45,11 +45,10 @@
 13. Gas Station.
 14. Integer to Roman.
 15. Container With Most Water.
-16. Longest Substring Without Repeating Characters.
-17. Game of Life.
-18. Group Anagrams.
-19. Merge Intervals.
-20.Insert Interval.
+16. Longest Substring Without Repeating Characters. 
+17. Group Anagrams.
+18. Merge Intervals.
+19.Insert Interval.
 
 > Hard:
 
