@@ -1,0 +1,27 @@
+Is Subsequence
+
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+Example 1:
+
+Input: s = "abc", t = "ahbgdc"
+Output: true
+Example 2:
+
+Input: s = "axc", t = "ahbgdc"
+Output: false
+
+Algorithm:
+
+> Start the program.
+> Assign the j as 0.
+> Check if the s is empty. If True means, return True.'
+> Open a for loop to iterate through each element in the t.
+> Check if the value of t is equal to the value of s.
+> Check if the j is equal to the length of s-1.
+> Then return True.
+> Increment the j by one.
+> At the end, return False.
+> End the program.
