@@ -1,3 +1,4 @@
+from collections import defaultdict
 class Solution(object):
     def groupAnagrams(self, strs):
         anagrams = defaultdict(list) # Opening a empty dictoinary with default keys for empty words.
