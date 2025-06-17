@@ -1,0 +1,33 @@
+Reverse Integers.
+
+Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+
+ 
+
+Example 1:
+
+Input: x = 123
+Output: 321
+Example 2:
+
+Input: x = -123
+Output: -321
+Example 3:
+
+Input: x = 120
+Output: 21
+
+Algorithm:
+
+> Start the program.
+> Assign the is_negative to x < 0.
+> Store the absolute values of x in x.
+> Initially assign the rev_num as 0.
+> Opens a loop whether the x is greater than 0.
+> Proceed with a calculation on the rev_num identification.
+> Check if the obtained rev_num is 0  then store the negative of the rev_num in rev_num.
+> Fix the range of rev_num, and if it exceeds the range, then return it as 0.
+> Return the rev_num.
+> End the program.
