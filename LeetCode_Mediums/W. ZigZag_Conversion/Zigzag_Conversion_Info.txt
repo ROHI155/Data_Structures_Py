@@ -1,0 +1,45 @@
+Zigzag Conversion
+
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string s, int numRows);
+ 
+
+Example 1:
+
+Input: s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
+Example 2:
+
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+Explanation:
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+Example 3:
+
+Input: s = "A", numRows = 1
+Output: "A"
+ 
+Algorithm:
+
+> Start the program.
+> Returning the s if the given range is 0.
+> Assigning the i and a and rows with their perspectives
+> To iterate through each element in the s.
+> Appending the i in c.
+> If i is equal to 0 means assign a value of 1.
+> check if it is equal to the numRows - 1, then assign the d as negative 1.
+> Increment the I.
+> Creating the empty list.
+> for joining the element in the ret.
+> Returning the ret.
