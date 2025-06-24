@@ -25,7 +25,7 @@
 17. Ransom Note.
 18. Word Pattern.
 19. Happy Number.
-20. Linked List Cycle.
+20. 
 
 
 > Medium:
