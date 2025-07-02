@@ -74,11 +74,10 @@ Concepts Involved:
 > Sorting.
 > Bit-Manipulation.
 > Two Pointer.
-> Dict Based Execution.
 > Dynamic Programing.
-> Math
+> Math.
 > DFS.
-> Binary Search
+> Binary Search.
 > Hash Table.
 > Greedy.
 > Backtracking.
