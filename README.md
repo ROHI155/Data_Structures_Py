@@ -69,9 +69,16 @@
 10. Maximum Score of a Good Sub Array.
 
 Concepts Involved:
+> Array.
+> String.
+> Sorting.
+> Bit-Manipulation.
 > Two Pointer.
 > Dict Based Execution.
 > Dynamic Programing.
+> Math
 > DFS.
+> Binary Search
+> Hash Table.
 > Greedy.
 > Backtracking.
