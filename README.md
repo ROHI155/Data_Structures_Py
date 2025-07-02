@@ -25,7 +25,7 @@
 17. Ransom Note.
 18. Word Pattern.
 19. Happy Number.
-20. 
+20. Palindrome_Number.
 
 
 > Medium:
